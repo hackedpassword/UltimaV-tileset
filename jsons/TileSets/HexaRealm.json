@@ -1,0 +1,9 @@
+{
+	"useColorAsBaseTerrain": "false",
+	// "fallbackTileSet": "FantasyHex",  // don't want a fallback
+
+	"Plains+Hill": ["Plains","Hill"],
+	"Grassland+Hill": ["Grassland","Hill"],
+	"Desert+Hill": ["Desert","Hill"],
+	
+}
