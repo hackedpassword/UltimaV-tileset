@@ -25,6 +25,27 @@ TileSets/HexaRealm/Tiles/Academy
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Academy-Atomic era
+  rotate: false
+  xy: 268, 132
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Academy-Future era
+  rotate: false
+  xy: 268, 132
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Academy-Information era
+  rotate: false
+  xy: 268, 132
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Aluminum
   rotate: false
   xy: 268, 60
@@ -347,6 +368,20 @@ TileSets/HexaRealm/Tiles/Manufactory
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Manufactory-Atomic era
+  rotate: false
+  xy: 1204, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Manufactory-Industrial era
+  rotate: false
+  xy: 1204, 60
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Marble
   rotate: false
   xy: 1276, 132
@@ -488,6 +523,13 @@ TileSets/HexaRealm/Tiles/Stone
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trading post
+  rotate: false
+  xy: 1780, 132
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Trading post-Industrial era
   rotate: false
   xy: 1780, 132
   size: 64, 64
