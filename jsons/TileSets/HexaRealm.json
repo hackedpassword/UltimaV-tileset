@@ -8,10 +8,12 @@
 	"Grassland+Hill": ["Grassland","Hill"],
 	"Desert+Hill": ["Desert","Hill"],
 
-	Grassland+Forest+Deer: ["Grassland","ForestG","Deer"],
-	Grassland+Hill+Forest+Deer: ["Grassland+Hill","ForestG","Deer"],
+	"Grassland+Forest+Deer": ["Grassland","ForestG","Deer"],
+	"Grassland+Hill+Forest+Deer": ["Grassland+Hill","ForestG","Deer"],
 
-	Snow+Hill+Uranium+Mine: ["Snow+Hill","Snow+Hill+Mine"],
+	"Snow+Hill+Uranium+Mine": ["Snow+Hill","Snow+Hill+Mine"],
+	"Grassland+Hill+Mine": ["Grassland"+"Hill+Mine"],
+
 
     }
 
