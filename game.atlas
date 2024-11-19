@@ -319,247 +319,261 @@ TileSets/HexaRealm/Tiles/Hill
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Holy site
+TileSets/HexaRealm/Tiles/Hill+Mine
   rotate: false
   xy: 988, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Horses
+TileSets/HexaRealm/Tiles/Holy site
   rotate: false
   xy: 988, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Iron
+TileSets/HexaRealm/Tiles/Horses
   rotate: false
   xy: 1060, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Ivory
+TileSets/HexaRealm/Tiles/Iron
   rotate: false
   xy: 1060, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Ivory
+  rotate: false
+  xy: 1132, 174
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Jungle
-  rotate: false
-  xy: 1132, 174
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/JungleG
-  rotate: false
-  xy: 1132, 174
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Lakes
   rotate: false
   xy: 1132, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/JungleG
+  rotate: false
+  xy: 1132, 102
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Lakes
+  rotate: false
+  xy: 1204, 174
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Manufactory
-  rotate: false
-  xy: 1204, 174
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Manufactory-Atomic era
-  rotate: false
-  xy: 1204, 174
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Manufactory-Industrial era
-  rotate: false
-  xy: 1204, 174
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Marble
   rotate: false
   xy: 1204, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Marsh
+TileSets/HexaRealm/Tiles/Manufactory-Atomic era
+  rotate: false
+  xy: 1204, 102
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Manufactory-Industrial era
+  rotate: false
+  xy: 1204, 102
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Marble
   rotate: false
   xy: 1276, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Mine
+TileSets/HexaRealm/Tiles/Marsh
   rotate: false
   xy: 1276, 102
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mine
+  rotate: false
+  xy: 1348, 174
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mine-Industrial era
+  rotate: false
+  xy: 1348, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Fuji
   rotate: false
-  xy: 1276, 102
+  xy: 1348, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Old Faithful
   rotate: false
-  xy: 1276, 102
+  xy: 1348, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mountain
   rotate: false
-  xy: 1348, 174
+  xy: 1420, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mountain2
   rotate: false
-  xy: 1348, 174
+  xy: 1420, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Oasis
   rotate: false
-  xy: 1348, 102
+  xy: 1420, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ocean
   rotate: false
-  xy: 1420, 174
+  xy: 1492, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Oil
   rotate: false
-  xy: 1420, 102
+  xy: 1492, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/OilS
   rotate: false
-  xy: 1420, 102
+  xy: 1492, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Pearls
   rotate: false
-  xy: 1492, 174
+  xy: 1564, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains
   rotate: false
-  xy: 1492, 102
+  xy: 1564, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains2
   rotate: false
-  xy: 1492, 102
+  xy: 1564, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains3
   rotate: false
-  xy: 1492, 102
+  xy: 1564, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Silver
   rotate: false
-  xy: 1564, 174
+  xy: 1636, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Snow+Hill
   rotate: false
-  xy: 1564, 102
+  xy: 1636, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Snow+Hill+Mine
   rotate: false
-  xy: 1636, 174
+  xy: 1708, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Spices
   rotate: false
-  xy: 1636, 102
+  xy: 1708, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Stone
   rotate: false
-  xy: 1708, 174
+  xy: 1780, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trading post
   rotate: false
-  xy: 1708, 102
+  xy: 1780, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trading post-Industrial era
   rotate: false
-  xy: 1708, 102
+  xy: 1780, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Truffles
   rotate: false
-  xy: 1780, 174
+  xy: 1852, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Uranium
   rotate: false
-  xy: 1780, 102
+  xy: 1852, 102
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Wheat
   rotate: false
-  xy: 1852, 174
+  xy: 1924, 174
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
