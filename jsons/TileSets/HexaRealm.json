@@ -9,10 +9,18 @@
 	"Desert+Hill": ["Desert","Hill"],
 
 	"Grassland+Forest+Deer": ["Grassland","ForestG","Deer"],
+	"Grassland+Forest+Furs": ["Grassland","ForestG","Furs"],
+	"Grassland+Jungle+Bananas": ["Grassland","JungleG","Bananas"],
 	"Grassland+Hill+Forest+Deer": ["Grassland+Hill","ForestG","Deer"],
 
 	"Snow+Hill+Uranium+Mine": ["Snow+Hill","Snow+Hill+Mine"],
-	"Grassland+Hill+Mine": ["Grassland"+"Hill+Mine"],
+	"Grassland+Marsh+Uranium": ["Grassland","Marsh","Uranium"],
+	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Hill+Mine","Aluminum"],
+
+
+	"Grassland+Hill+Mine": ["Grassland","Hill","Hill+Mine"],
+	"Plains+Hill+Mine": ["Plains","Hill","Hill+Mine"],
+	"Desert+Hill+Mine": ["Desert","Hill","Hill+Mine"],
 
 
     }
