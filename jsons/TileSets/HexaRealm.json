@@ -4,23 +4,52 @@
 
     "ruleVariants": {
 
+        // glass sword
+	"Snow+Hill+Uranium+Mine": ["Snow+Hill","Snow+Hill+Mine"],
+
 	"Plains+Hill": ["Plains","Hill"],
 	"Grassland+Hill": ["Grassland","Hill"],
+	"Grassland+Hill+Forest": ["Grassland","Hill","ForestG"],
+	"Grassland+Hill+Jungle": ["Grassland","Hill","JungleG"],
+	"Grassland+Hill+Forest+Jungle": ["Grassland","Hill","JungleG"],
 	"Desert+Hill": ["Desert","Hill"],
-
-	"Grassland+Forest+Deer": ["Grassland","ForestG","Deer"],
-	"Grassland+Forest+Furs": ["Grassland","ForestG","Furs"],
-	"Grassland+Jungle+Bananas": ["Grassland","JungleG","Bananas"],
-	"Grassland+Hill+Forest+Deer": ["Grassland+Hill","ForestG","Deer"],
-
-	"Snow+Hill+Uranium+Mine": ["Snow+Hill","Snow+Hill+Mine"],
-	"Grassland+Marsh+Uranium": ["Grassland","Marsh","Uranium"],
-	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Hill+Mine","Aluminum"],
-
 
 	"Grassland+Hill+Mine": ["Grassland","Hill","Hill+Mine"],
 	"Plains+Hill+Mine": ["Plains","Hill","Hill+Mine"],
 	"Desert+Hill+Mine": ["Desert","Hill","Hill+Mine"],
+
+	"Grassland+Forest+Jungle": ["Grassland","JungleG"],
+	"Grassland+Jungle+Forest": ["Grassland","ForestG","JungleG"],
+	"Grassland+Forest+Marsh": ["Grassland","Marsh","ForestG"],
+
+	"Grassland+Forest+Deer": ["Grassland","ForestG","Deer"],
+	"Grassland+Forest+Furs": ["Grassland","ForestG","Furs"],
+	"Grassland+Forest+Citrus": ["Grassland","ForestG","Citrus"],
+	"Grassland+Jungle+Bananas": ["Grassland","Bananas","JungleG"],
+	"Grassland+Forest+Jungle+Bananas": ["Grassland","Bananas","JungleG"],
+
+	"Grassland+Hill+Forest+Deer": ["Grassland+Hill","ForestG","Deer"],
+
+	"Grassland+Marsh+Uranium": ["Grassland","Marsh","Uranium"],
+	"Grassland+Marsh+Forest+Uranium": ["Grassland","Marsh","Uranium","ForestG"],
+
+	"Grassland+Hill+Stone+Mine": ["Grassland","Hill","Stone","Hill+Mine"],
+	"Grassland+Hill+Silver+Mine": ["Grassland","Hill","Hill+Mine","Silver"],
+	"Grassland+Hill+Gold Ore+Mine": ["Grassland","Hill","Hill+Mine","Gold Ore"],
+	"Grassland+Hill+Iron+Mine": ["Grassland","Hill","Hill+Mine","Iron"],
+	"Grassland+Hill+Coal+Mine": ["Grassland","Hill","Hill+Mine","Coal"],
+	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Hill+Mine","Aluminum"],
+	"Grassland+Hill+Forest+Coal": ["Grassland","Hill","Coal","ForestG"],
+	"Grassland+Hill+Forest+Iron": ["Grassland","Hill","Iron","ForestG"],
+	"Grassland+Hill+Forest+Uranium": ["Grassland","Hill","Uranium","ForestG"],
+
+	"Grassland+Forest+Jungle+Uranium": ["Grassland",JungleG","Uranium","ForestG"],
+	"Grassland+Forest+Jungle+Coal": ["Grassland","JungleG","Coal","ForestG"],
+	"Grassland+Forest+Jungle+Iron": ["Grassland","JungleG","Iron","ForestG"],
+
+
+
+
 
 
     }
