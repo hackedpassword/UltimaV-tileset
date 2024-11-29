@@ -1,7 +1,11 @@
 # UltimaV-tileset
 Tileset graphics mod for Ultima V map [Britannia](https://github.com/hackedpassword/Nextgen-Maps#britannia-overworld), and a component of the (wip) U5 mod.
 
-![](u5_prototype.png)
+![](u5_next_phase.png)
+
+You see the new edge tiles alters the square tile immersion. I'll be addressing edge tiles later, using Ultima V shoreline graphics! Even better, while retaining square tile sprites.
+
+![](u5_next_phase2.png)
 
 For a comparison, here's the original graphics:
 ![](original_map-at-cove.png)
