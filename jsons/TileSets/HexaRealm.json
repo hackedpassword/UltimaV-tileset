@@ -46,8 +46,28 @@
 	"Grassland+Forest+Jungle+Uranium": ["Grassland",JungleG","Uranium","ForestG"],
 	"Grassland+Forest+Jungle+Coal": ["Grassland","JungleG","Coal","ForestG"],
 	"Grassland+Forest+Jungle+Iron": ["Grassland","JungleG","Iron","ForestG"],
+	"Grassland+Forest+Jungle+Aluminum": ["Grassland","Jungle","Aluminum","Forest"],
 
-
+	// sprite manipulators
+	"Desert+Flood plains+Wheat": ["Desert","Flood plains+Wheat"],  // Vertical bridge
+	"Grassland+Hill+Ivory+Landmark": ["Grassland","Hill","Ivory"],  // For right-facing statue
+	"Grassland+Hill+Ivory+Holy site": ["Grassland","Hill","Ivory+Holy site"],  // For left-facing statue
+	"Grassland+Stone+Ancient ruins": ["Grassland","RuinsT"],  		// Lower left money sack
+	"Grassland+Hill+Stone+Ancient ruins": ["Grassland","Hill","RuinsT"],  	// Lower left money sack
+	"Grassland+Hill+Gold Ore+Ancient ruins": ["Grassland","Hill","Gold Ore","RuinsT"],  // Lower left money sack
+	"Grassland+Stone+Landmark": ["Grassland","Landmark+Stone"],	// Lighthouse
+	"Grassland+Stone+Academy": ["Grassland","Academy+Stone"],	// Keep
+	"Grassland+Hill+Stone+Academy": ["Grassland","Hill","Academy+Stone"],	// Keep
+	"Grassland+Cattle+Landmark": ["Grassland","Landmark+Cattle"],	// Hut
+	"Grassland+Horses+Manufactory": ["Grassland","Manufactory+Horses"],  // Hut cluster
+	"Grassland+Horses+Fort": ["Grassland","Manufactory+Horses"],	// Hut cluster
+	"Grassland+Horses+Farm": ["Grassland","Manufactory+Horses"],	// Hut cluster
+	"Grassland+Iron+Landmark": ["Grassland","Manufactory+Horses"],	// Hut cluster
+	"Grassland+Wine+Trading post": ["Grassland","Manufactory+Horses"],	// Hut cluster
+	"Grassland+Horses+Landmark": ["Grassland","Landmark+Cattle"],	// Hut
+	"Grassland+Marsh+Dyes+Polder": ["Grassland","Marsh","Landmark+Cattle"],	// Hut
+	"Desert+Stone+Fort": ["Desert","Fort+Stone"],	// Hut (difference in huts etc is underlying bonuses)
+	"Desert+Wheat": ["Desert","Desert+Wheat"],	// Cactus
 
 
 
