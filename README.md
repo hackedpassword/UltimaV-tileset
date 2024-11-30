@@ -3,7 +3,7 @@ Tileset graphics mod for Ultima V map [Britannia](https://github.com/hackedpassw
 
 ![](u5_next_phase.png)
 
-You see the new edge tiles alters the square tile immersion. I'll be addressing edge tiles later, using Ultima V shoreline graphics! Even better, while retaining square tile sprites.
+You see the new edge tiles improve square tile immersion. This needs more work but it'll do for now!
 
 ![](u5_next_phase2.png)
 
