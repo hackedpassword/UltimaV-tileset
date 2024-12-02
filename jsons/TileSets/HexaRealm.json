@@ -68,7 +68,7 @@
 	"Grassland+Marsh+Dyes+Polder": ["Grassland","Marsh","Landmark+Cattle"],	// Hut
 	"Desert+Stone+Fort": ["Desert","Fort+Stone"],	// Hut (difference in huts etc is underlying bonuses)
 	"Desert+Wheat": ["Desert","Desert+Wheat"],	// Cactus
-
+	"Desert+Wheat+Farm": ["Desert","FarmG","Desert+Wheat"],	// Cactus
 
 
 
