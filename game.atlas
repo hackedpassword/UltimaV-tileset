@@ -935,6 +935,13 @@ TileSets/HexaRealm/Tiles/Copper
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Customs house-Atomic era
+  rotate: false
+  xy: 1620, 444
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Customs house
   rotate: false
   xy: 1620, 444
