@@ -30,13 +30,16 @@
 	"Plains+Hill+Mine": ["Plains","Hill","Hill+Mine"],
 	"Desert+Hill+Mine": ["Desert","Hill","Hill+Mine"],
 
-	"Grassland+Forest+Deer": ["Grassland","ForestG","Deer"],
-	"Grassland+Forest+Furs": ["Grassland","ForestG","Furs"],
-	"Grassland+Forest+Citrus": ["Grassland","ForestG","Citrus"],
+	// resources are hiding behind forest not awkwardly in front
+
+	"Grassland+Forest+Deer": ["Grassland","Deer","ForestG"],
+	"Grassland+Forest+Jungle+Deer": ["Grassland","JungleG","Deer","ForestG"],
+	"Grassland+Forest+Furs": ["Grassland","Furs","ForestG"],
+	"Grassland+Forest+Citrus": ["Grassland","Citrus","ForestG"],
 	"Grassland+Jungle+Bananas": ["Grassland","Bananas","JungleG"],
 	"Grassland+Forest+Jungle+Bananas": ["Grassland","Bananas","JungleG"],
 
-	"Grassland+Hill+Forest+Deer": ["Grassland+Hill","ForestG","Deer"],
+	"Grassland+Hill+Forest+Deer": ["Grassland+Hill","Deer","ForestG"],
 
 	"Grassland+Marsh+Uranium": ["Grassland","Marsh","Uranium"],
 	"Grassland+Marsh+Forest+Uranium": ["Grassland","Marsh","Uranium","ForestG"],
@@ -56,35 +59,42 @@
 	"Grassland+Forest+Jungle+Oil": ["Grassland","JungleG","Oil","ForestG"],
 	"Grassland+Forest+Jungle+Coal": ["Grassland","JungleG","Coal","ForestG"],
 	"Grassland+Forest+Jungle+Iron": ["Grassland","JungleG","Iron","ForestG"],
-	"Grassland+Forest+Jungle+Aluminum": ["Grassland","Jungle","Aluminum","Forest"],
-	"Grassland+Forest+Aluminum": ["Grassland","Aluminum","Forest"],
+	"Grassland+Forest+Jungle+Aluminum": ["Grassland","JungleG","Aluminum","ForestG"],
+	"Grassland+Forest+Aluminum": ["Grassland","Aluminum","ForestG"],
 
-	// sprite manipulators
+// sprite manipulators
 
 	"Grassland+Hill+Ivory+Landmark": ["Grassland","Hill","Ivory"],  // For right-facing statue
-	"Grassland+Hill+Ivory+Holy site": ["Grassland","Hill","Ivory+Holy site"],  // For left-facing statue
+	"Grassland+Hill+Ivory+Camp": ["Grassland","Hill","Ivory"],  // For right-facing statue
+
+	"Grassland+Hill+Marble+Holy site": ["Grassland","Hill","Holy site+Marble"],  // For left-facing statue
+	"Grassland+Hill+Marble+Quarry": ["Grassland","Hill","Holy site+Marble"],  // For left-facing statue
 
 	"Grassland+Stone+Ancient ruins": ["Grassland","RuinsT"],  		// Lower left money sack
 	"Grassland+Hill+Stone+Ancient ruins": ["Grassland","Hill","RuinsT"],  	// Lower left money sack
 	"Grassland+Hill+Gold Ore+Ancient ruins": ["Grassland","Hill","Gold Ore","RuinsT"],  // Lower left money sack
 
-	"Grassland+Marsh+Dyes+Polder": ["Grassland","Marsh","Landmark+Cattle"],	// Hut
-
 	"Grassland+Stone+Landmark": ["Grassland","Landmark+Stone"],	// Lighthouse
 	"Grassland+Stone+Academy": ["Grassland","Academy+Stone"],	// Keep
 	"Grassland+Hill+Stone+Academy": ["Grassland","Hill","Academy+Stone"],	// Keep
-	"Grassland+Cattle+Landmark": ["Grassland","Landmark+Cattle"],	// Hut
+
+	"Grassland+Horses+Farm": ["Grassland","Manufactory+Horses"],	// Hut cluster - West Brittany
+	"Grassland+Iron+Landmark": ["Grassland","Manufactory+Horses"],	// Hut cluster - North Brittany
+	"Grassland+Wine+Trading post": ["Grassland","Manufactory+Horses"],	// Hut cluster - East Brittany
+
+	// Huts (main difference in huts etc is underlying bonuses)
+
+	"Grassland+Marsh+Dyes+Polder": ["Grassland","Marsh","Landmark+Cattle"],	// Sutek's Hut
+	"Grassland+Cattle+Landmark": ["Grassland","Landmark+Cattle"],	// Grendel's Hut
+
+	"Grassland+Horses+Landmark": ["Grassland","Landmark+Cattle"],	// Hut - Iolo's
 	"Grassland+Horses+Manufactory": ["Grassland","Manufactory+Horses"],  // Hut cluster
+	"Grassland+Horses+Fort": ["Grassland","Manufactory+Horses"],	// Hut cluster - Cove, Paws
 
-	"Grassland+Horses+Fort": ["Grassland","Manufactory+Horses"],	// Hut cluster
-	"Grassland+Horses+Farm": ["Grassland","Manufactory+Horses"],	// Hut cluster
-	"Grassland+Horses+Landmark": ["Grassland","Landmark+Cattle"],	// Hut
+	"Desert+Stone+Holy site": ["Desert","Holy site+Stone"],	// Sin'vrall Hut
 
-	"Grassland+Iron+Landmark": ["Grassland","Manufactory+Horses"],	// Hut cluster
-	"Grassland+Wine+Trading post": ["Grassland","Manufactory+Horses"],	// Hut cluster
-
-	"Desert+Oil+Holy site": ["Desert","Holy site+Oil"],	// Sin'vrall Hut (main difference in huts etc is underlying bonuses)
-	"Desert+Wheat": ["Desert","Desert+Wheat"],	// Cactus not sandlewood box
+	"Desert+Wheat": ["Desert","Desert+Wheat"],	// Cactus (not sandlewood box)
+	"Desert+Wheat+Plantation": ["Desert","Plantation","Desert+Wheat"],
 	"Desert+Farm": ["Desert","FarmD"],
 	"Desert+Wheat+Farm": ["Desert","FarmD","Desert+Wheat"],	// Farm with Cactus
 	"Desert+Wheat+Manufactory": ["Desert","Manufactory","Desert+Wheat"],
@@ -94,25 +104,25 @@
 	"Plains+Fort": ["Plains","Academy"],
 	"Desert+Fort": ["Desert","Academy"],
 	"Grassland+Fort": ["Grassland","Academy"],
-	"Grassland+Forest+Fort": ["Grassland","Academy","Forest"],
-	"Grassland+Jungle+Fort": ["Grassland","Academy","Jungle"],
-	"Grassland+Forest+Jungle+Fort": ["Grassland","Academy","Jungle"],
+	"Grassland+Forest+Fort": ["Grassland","Academy","ForestG"],
+	"Grassland+Jungle+Fort": ["Grassland","Academy","JungleG"],
+	"Grassland+Forest+Jungle+Fort": ["Grassland","Academy","JungleG"],
 	"Grassland+Hill+Fort": ["Grassland","Hill","Academy"],
-	"Grassland+Hill+Forest+Fort": ["Grassland","Hill","Academy","Forest"],
-	"Grassland+Hill+Forest+Jungle+Fort": ["Grassland","Hill","Academy","Jungle"],	// Fort, not sure this exists in the map
+	"Grassland+Hill+Forest+Fort": ["Grassland","Hill","Academy","ForestG"],
+	"Grassland+Hill+Forest+Jungle+Fort": ["Grassland","Hill","Academy","JungleG"],	// Fort, not sure this exists in the map
 
 	// Citadels
 	"Grassland+Citadel": ["Grassland","Citadel"],  // Using Academy/Fortress as the sprite (for all Citadels)
 	"Plains+Citadel": ["Plains","Citadel"],
 	"Desert+Citadel": ["Desert","Citadel"],
 	"Grassland+Citadel": ["Grassland","Citadel"],
-	"Grassland+Forest+Citadel": ["Grassland","Citadel","Forest"],
-	"Grassland+Jungle+Citadel": ["Grassland","Citadel","Jungle"],
-	"Grassland+Forest+Jungle+Citadel": ["Grassland","Citadel","Jungle"],
+	"Grassland+Forest+Citadel": ["Grassland","Citadel","ForestG"],
+	"Grassland+Jungle+Citadel": ["Grassland","Citadel","JungleG"],
+	"Grassland+Forest+Jungle+Citadel": ["Grassland","Citadel","JungleG"],
 	"Grassland+Hill+Citadel": ["Grassland","Hill","Citadel"],
-	"Grassland+Hill+Forest+Citadel": ["Grassland","Hill","Citadel","Forest"],
-	"Grassland+Hill+Forest+Jungle": ["Grassland","Hill","Citadel","Jungle"],
-	"Grassland+Hill+Forest+Jungle+Citadel": ["Grassland","Hill","Citadel","Jungle"],  // not sure this exists in the map
+	"Grassland+Hill+Forest+Citadel": ["Grassland","Hill","Citadel","ForestG"],
+	"Grassland+Hill+Forest+Jungle": ["Grassland","Hill","Citadel","JungleG"],
+	"Grassland+Hill+Forest+Jungle+Citadel": ["Grassland","Hill","Citadel","JungleG"],  // not sure this exists in the map
 
 	// Improvements on bridges
 	"Desert+Flood plains": ["Desert","Desert+Flood plains"],  // Bridge vis hack for improvements placed here
@@ -121,23 +131,20 @@
 	"Desert+Flood plains+City ruins": ["Desert","Desert+Flood plains","City ruins"],
 	"Desert+Flood plains+Customs house": ["Desert","Desert+Flood plains","Customs house"],
 	"Desert+Flood plains+Farm": ["Desert","Desert+Flood plains","Farm"],
+	"Desert+Flood plains+Incense": ["Desert","Flood plains+Wheat","Incense"],
+	"Desert+Flood plains+Incense+Plantation": ["Desert","Flood plains+Wheat","Incense","Plantation"],
 	"Desert+Flood plains+Holy site": ["Desert","Desert+Flood plains","Holy site"],
 	"Desert+Flood plains+Landmark": ["Desert","Desert+Flood plains","Landmark"],
 	"Desert+Flood plains+Manufactory": ["Desert","Desert+Flood plains","Manufactory"],
-	"Desert+Flood plains+Moai": ["Desert","Desert+Flood plains","Moai"],
-	"Desert+Flood plains+Polder": ["Desert","Desert+Flood plains","Polder"],
+	//"Desert+Flood plains+Moai": ["Desert","Desert+Flood plains","Moai"],  // not used
+	//"Desert+Flood plains+Polder": ["Desert","Desert+Flood plains","Polder"],  // not used
 	"Desert+Flood plains+Trading post": ["Desert","Desert+Flood plains","Trading post"],
 
 	"Desert+Flood plains+Wheat": ["Desert","Flood plains+Wheat"],  // Vertical bridge, this is how we fudge bridge rotation
+	"Desert+Flood plains+Wheat+Plantation": ["Desert","Flood plains+Wheat","Plantation"],
 
 	"Snow+Hill+Uranium+Mine": ["Snow+Hill","Snow+Hill+Mine"],	// glass sword
 
-
-
-
-
-
-	
 
 
     }
