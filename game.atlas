@@ -11,7 +11,21 @@ TileSets/FantasyHex/Units/Worker
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Worker-Modern era
+  rotate: false
+  xy: 468, 28
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Worker2
+  rotate: false
+  xy: 1400, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker2-Modern era
   rotate: false
   xy: 1400, 336
   size: 32, 28
@@ -25,7 +39,21 @@ TileSets/FantasyHex/Units/Worker3
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Worker3-Modern era
+  rotate: false
+  xy: 1440, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Worker4
+  rotate: false
+  xy: 1480, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker4-Modern era
   rotate: false
   xy: 1480, 336
   size: 32, 28
