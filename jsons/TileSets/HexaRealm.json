@@ -125,21 +125,22 @@
 	"Grassland+Hill+Forest+Jungle+Citadel": ["Grassland","Hill","Citadel","JungleG"],  // not sure this exists in the map
 
 	// Improvements on bridges
-	"Desert+Flood plains+Cotton": ["Desert","Desert+Flood plains","Cotton"],  // Horizontal bridge
-	"Desert+Flood plains+Cotton+Plantation": ["Desert","Desert+Flood plains","Cotton","Plantation"],  // Horizontal bridge
-	"Desert+Flood plains+Citadel": ["Desert","Desert+Flood plains","Citadel"],
-	"Desert+Flood plains+City center": ["Desert","Desert+Flood plains","City center"],
-	"Desert+Flood plains+City ruins": ["Desert","Desert+Flood plains","City ruins"],
-	"Desert+Flood plains+Customs house": ["Desert","Desert+Flood plains","Customs house"],
-	"Desert+Flood plains+Farm": ["Desert","Desert+Flood plains","Farm"],
+	"Desert+Flood plains": ["Desert+Flood plains","Flood plains"], // Horizontal bridge
+	"Desert+Flood plains+Cotton": ["Desert+Flood plains","Flood plains","Cotton"],
+	"Desert+Flood plains+Cotton+Plantation": ["Desert+Flood plains","Flood plains","Cotton","Plantation"],
+	"Desert+Flood plains+Citadel": ["Desert+Flood plains","Flood plains","Citadel"],
+	"Desert+Flood plains+City center": ["Desert+Flood plains","Flood plains","City center"],
+	"Desert+Flood plains+City ruins": ["Desert+Flood plains","Flood plains","City ruins"],
+	"Desert+Flood plains+Customs house": ["Desert+Flood plains","Flood plains","Customs house"],
+	"Desert+Flood plains+Farm": ["Desert+Flood plains","Flood plains","Farm"],
 	"Desert+Flood plains+Incense": ["Desert","Flood plains+Wheat","Incense"],
 	"Desert+Flood plains+Incense+Plantation": ["Desert","Flood plains+Wheat","Incense","Plantation"],
-	"Desert+Flood plains+Holy site": ["Desert","Desert+Flood plains","Holy site"],
-	"Desert+Flood plains+Landmark": ["Desert","Desert+Flood plains","Landmark"],
-	"Desert+Flood plains+Manufactory": ["Desert","Desert+Flood plains","Manufactory"],
-	//"Desert+Flood plains+Moai": ["Desert","Desert+Flood plains","Moai"],  // not used
-	//"Desert+Flood plains+Polder": ["Desert","Desert+Flood plains","Polder"],  // not used
-	"Desert+Flood plains+Trading post": ["Desert","Desert+Flood plains","Trading post"],
+	"Desert+Flood plains+Holy site": ["Desert+Flood plains","Flood plains","Holy site"],
+	"Desert+Flood plains+Landmark": ["Desert+Flood plains","Flood plains","Landmark"],
+	"Desert+Flood plains+Manufactory": ["Desert+Flood plains","Flood plains","Manufactory"],
+	//"Desert+Flood plains+Moai": ["Desert+Flood plains","Flood plains","Moai"],  // not used
+	//"Desert+Flood plains+Polder": ["Desert+Flood plains","Flood plains","Polder"],  // not used
+	"Desert+Flood plains+Trading post": ["Desert+Flood plains","Flood plains","Trading post"],
 
 	"Desert+Flood plains+Wheat": ["Desert","Flood plains+Wheat"],  // Vertical bridge, this is how we fudge bridge rotation
 	"Desert+Flood plains+Wheat+Plantation": ["Desert","Flood plains+Wheat","Plantation"],
