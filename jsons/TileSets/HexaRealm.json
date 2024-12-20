@@ -93,6 +93,7 @@
 
 	"Desert+Stone+Holy site": ["Desert","Holy site+Stone"],	// Sin'vrall Hut
 
+	// Cactus
 	"Desert+Wheat": ["Desert","Desert+Wheat"],	// Cactus (not sandlewood box)
 	"Desert+Wheat+Plantation": ["Desert","Plantation","Desert+Wheat"],
 	"Desert+Farm": ["Desert","FarmD"],
@@ -121,11 +122,11 @@
 	"Grassland+Forest+Jungle+Citadel": ["Grassland","Citadel","JungleG"],
 	"Grassland+Hill+Citadel": ["Grassland","Hill","Citadel"],
 	"Grassland+Hill+Forest+Citadel": ["Grassland","Hill","Citadel","ForestG"],
-	"Grassland+Hill+Forest+Jungle": ["Grassland","Hill","Citadel","JungleG"],
 	"Grassland+Hill+Forest+Jungle+Citadel": ["Grassland","Hill","Citadel","JungleG"],  // not sure this exists in the map
 
 	// Improvements on bridges
-	"Desert+Flood plains": ["Desert","Desert+Flood plains"],  // Bridge vis hack for improvements placed here
+	"Desert+Flood plains+Cotton": ["Desert","Desert+Flood plains","Cotton"],  // Horizontal bridge
+	"Desert+Flood plains+Cotton+Plantation": ["Desert","Desert+Flood plains","Cotton","Plantation"],  // Horizontal bridge
 	"Desert+Flood plains+Citadel": ["Desert","Desert+Flood plains","Citadel"],
 	"Desert+Flood plains+City center": ["Desert","Desert+Flood plains","City center"],
 	"Desert+Flood plains+City ruins": ["Desert","Desert+Flood plains","City ruins"],
