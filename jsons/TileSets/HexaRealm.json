@@ -51,6 +51,8 @@
 	"Grassland+Hill+Coal+Mine": ["Grassland","Hill","Hill+Mine","Coal"],
 	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Hill+Mine","Aluminum"],
 
+	"Grassland+Hill+Stone+Quarry": ["Grassland","Hill","Quarry"],
+
 	"Grassland+Hill+Forest+Coal": ["Grassland","Hill","Coal","ForestG"],
 	"Grassland+Hill+Forest+Iron": ["Grassland","Hill","Iron","ForestG"],
 	"Grassland+Hill+Forest+Uranium": ["Grassland","Hill","Uranium","ForestG"],
@@ -62,7 +64,7 @@
 	"Grassland+Forest+Jungle+Aluminum": ["Grassland","JungleG","Aluminum","ForestG"],
 	"Grassland+Forest+Aluminum": ["Grassland","Aluminum","ForestG"],
 
-// sprite manipulators
+// sprite manipulators - non-standard uses of sprites
 
 	"Grassland+Hill+Ivory+Landmark": ["Grassland","Hill","Ivory"],  // For right-facing statue
 	"Grassland+Hill+Ivory+Camp": ["Grassland","Hill","Ivory"],  // For right-facing statue
@@ -85,6 +87,7 @@
 	// Huts (main difference in huts etc is underlying bonuses)
 
 	"Grassland+Marsh+Dyes+Polder": ["Grassland","Marsh","Landmark+Cattle"],	// Sutek's Hut
+	"Grassland+Marsh+Dyes+Polder+Pillaged": ["Grassland","Marsh","Quarry","Landmark+Cattle"],	// Pillage test
 	"Grassland+Cattle+Landmark": ["Grassland","Landmark+Cattle"],	// Grendel's Hut
 
 	"Grassland+Horses+Landmark": ["Grassland","Landmark+Cattle"],	// Hut - Iolo's
@@ -110,7 +113,23 @@
 	"Grassland+Forest+Jungle+Fort": ["Grassland","Academy","JungleG"],
 	"Grassland+Hill+Fort": ["Grassland","Hill","Academy"],
 	"Grassland+Hill+Forest+Fort": ["Grassland","Hill","Academy","ForestG"],
-	"Grassland+Hill+Forest+Jungle+Fort": ["Grassland","Hill","Academy","JungleG"],	// Fort, not sure this exists in the map
+	"Grassland+Hill+Forest+Jungle+Fort": ["Grassland","Hill","Academy","JungleG"],
+
+	"Grassland+Hill+Coal+Fort": ["Grassland","Hill","Coal","Academy"],
+	"Grassland+Hill+Iron+Fort": ["Grassland","Hill","Iron","Academy"],
+	"Grassland+Hill+Horses+Fort": ["Grassland","Hill","Horses","Academy"],
+	"Grassland+Hill+Aluminum+Fort": ["Grassland","Hill","Aluminum","Academy"],
+
+	"Grassland+Cattle+Fort": ["Grassland","Academy","Cattle"],
+	"Grassland+Deer+Fort": ["Grassland","Academy","Deer"],
+	"Grassland+Hill+Sheep+Fort": ["Grassland","Hill","Academy","Sheep"],
+	"Grassland+Hill+Stone+Fort": ["Grassland","Hill","Academy","Stone"],
+	"Desert+Wheat+Fort": ["Desert","Academy","Desert+Wheat"],
+
+	"Grassland+Forest+Citrus+Fort": ["Grassland","Academy","Citrus","ForestG"],
+	"Grassland+Jungle+Citrus+Fort": ["Grassland","Academy","Citrus","JungleG"],
+	"Grassland+Forest+Jungle+Citrus+Fort": ["Grassland","Academy","Citrus","JungleG"],
+
 
 	// Citadels
 	"Grassland+Citadel": ["Grassland","Citadel"],  // Using Academy/Fortress as the sprite (for all Citadels)
@@ -138,8 +157,6 @@
 	"Desert+Flood plains+Holy site": ["Desert+Flood plains","Flood plains","Holy site"],
 	"Desert+Flood plains+Landmark": ["Desert+Flood plains","Flood plains","Landmark"],
 	"Desert+Flood plains+Manufactory": ["Desert+Flood plains","Flood plains","Manufactory"],
-	//"Desert+Flood plains+Moai": ["Desert+Flood plains","Flood plains","Moai"],  // not used
-	//"Desert+Flood plains+Polder": ["Desert+Flood plains","Flood plains","Polder"],  // not used
 	"Desert+Flood plains+Trading post": ["Desert+Flood plains","Flood plains","Trading post"],
 
 	"Desert+Flood plains+Wheat": ["Desert","Flood plains+Wheat"],  // Vertical bridge, this is how we fudge bridge rotation
