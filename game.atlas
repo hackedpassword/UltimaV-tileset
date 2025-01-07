@@ -20,42 +20,42 @@ TileSets/FantasyHex/Units/Worker-Modern era
   index: -1
 TileSets/FantasyHex/Units/Worker2
   rotate: false
-  xy: 1400, 336
+  xy: 1440, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker2-Modern era
   rotate: false
-  xy: 1400, 336
+  xy: 1440, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker3
   rotate: false
-  xy: 1440, 336
+  xy: 1480, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker3-Modern era
   rotate: false
-  xy: 1440, 336
+  xy: 1480, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker4
   rotate: false
-  xy: 1480, 336
+  xy: 1520, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker4-Modern era
   rotate: false
-  xy: 1480, 336
+  xy: 1520, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1579,6 +1579,13 @@ TileSets/HexaRealm/Tiles/OilS
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Oil well
+  rotate: false
+  xy: 1400, 332
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Pearls
   rotate: false
   xy: 428, 180
@@ -1609,9 +1616,9 @@ TileSets/HexaRealm/Tiles/Plains3
   index: -1
 TileSets/HexaRealm/Tiles/Quarry
   rotate: false
-  xy: 548, 412
-  size: 16, 16
-  orig: 16, 16
+  xy: 548, 404
+  size: 24, 24
+  orig: 24, 24
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Railroad-Pillaged
