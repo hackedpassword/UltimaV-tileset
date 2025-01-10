@@ -963,6 +963,13 @@ TileSets/HexaRealm/Tiles/Atoll
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Camp
+  rotate: false
+  xy: 548, 404
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Cerro de Potosi
   rotate: false
   xy: 1260, 444
@@ -1003,6 +1010,13 @@ TileSets/HexaRealm/Tiles/Copper
   xy: 1476, 444
   size: 64, 64
   orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cotton+Plantation
+  rotate: false
+  xy: 76, 84
+  size: 24, 24
+  orig: 24, 24
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Customs house
@@ -1586,6 +1600,13 @@ TileSets/HexaRealm/Tiles/Oil well
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Oil+Oil well
+  rotate: false
+  xy: 1400, 332
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Pearls
   rotate: false
   xy: 428, 180
@@ -1614,9 +1635,16 @@ TileSets/HexaRealm/Tiles/Plains3
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Quarry
+TileSets/HexaRealm/Tiles/PlantationB
   rotate: false
-  xy: 548, 404
+  xy: 652, 444
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/QuarryH
+  rotate: false
+  xy: 444, 364
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
