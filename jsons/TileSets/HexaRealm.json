@@ -51,7 +51,7 @@
 	"Grassland+Hill+Coal+Mine": ["Grassland","Hill","Hill+Mine","Coal"],
 	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Hill+Mine","Aluminum"],
 
-	"Grassland+Hill+Stone+Quarry": ["Grassland","Hill","Quarry"],
+	"Grassland+Hill+Stone+Quarry": ["Grassland","Hill","QuarryH"],
 
 	"Grassland+Hill+Forest+Coal": ["Grassland","Hill","Coal","ForestG"],
 	"Grassland+Hill+Forest+Iron": ["Grassland","Hill","Iron","ForestG"],
@@ -83,6 +83,8 @@
 	"Grassland+Horses+Farm": ["Grassland","Manufactory+Horses"],	// Hut cluster - West Brittany
 	"Grassland+Iron+Landmark": ["Grassland","Manufactory+Horses"],	// Hut cluster - North Brittany
 	"Grassland+Wine+Trading post": ["Grassland","Manufactory+Horses"],	// Hut cluster - East Brittany
+
+	// "Grassland+Plantation+Cotton": ["Grassland","Cotton+Plantation","Cotton","PlantationB"],
 
 	// Huts (main difference in huts etc is underlying bonuses)
 
