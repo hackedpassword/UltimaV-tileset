@@ -20,42 +20,42 @@ TileSets/FantasyHex/Units/Worker-Modern era
   index: -1
 TileSets/FantasyHex/Units/Worker2
   rotate: false
-  xy: 1440, 336
+  xy: 1480, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker2-Modern era
   rotate: false
-  xy: 1440, 336
+  xy: 1480, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker3
   rotate: false
-  xy: 1480, 336
+  xy: 1520, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker3-Modern era
   rotate: false
-  xy: 1480, 336
+  xy: 1520, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker4
   rotate: false
-  xy: 1520, 336
+  xy: 1560, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker4-Modern era
   rotate: false
-  xy: 1520, 336
+  xy: 1560, 336
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -963,11 +963,32 @@ TileSets/HexaRealm/Tiles/Atoll
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Camp
+TileSets/HexaRealm/Tiles/Cattle+Pasture
   rotate: false
-  xy: 548, 404
-  size: 24, 24
-  orig: 24, 24
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cattle+Pasture-Industrial era
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Sheep+Pasture
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Sheep+Pasture-Industrial era
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cerro de Potosi
@@ -986,7 +1007,7 @@ TileSets/HexaRealm/Tiles/Sri Pada
   index: -1
 TileSets/HexaRealm/Tiles/City ruins
   rotate: false
-  xy: 4, 4
+  xy: 444, 324
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1014,7 +1035,7 @@ TileSets/HexaRealm/Tiles/Copper
   index: -1
 TileSets/HexaRealm/Tiles/Cotton+Plantation
   rotate: false
-  xy: 76, 84
+  xy: 548, 404
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
@@ -1063,7 +1084,7 @@ TileSets/HexaRealm/Tiles/Desert+Flood plains
   index: -1
 TileSets/HexaRealm/Tiles/Desert+Wheat
   rotate: false
-  xy: 444, 324
+  xy: 692, 340
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1105,7 +1126,7 @@ TileSets/HexaRealm/Tiles/El Dorado
   index: -1
 TileSets/HexaRealm/Tiles/Fallout
   rotate: false
-  xy: 692, 340
+  xy: 1240, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1203,42 +1224,42 @@ TileSets/HexaRealm/Tiles/Flood plains
   index: -1
 TileSets/HexaRealm/Tiles/Flood plains+Wheat
   rotate: false
-  xy: 1240, 332
+  xy: 716, 300
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Forest+Jungle
   rotate: false
-  xy: 716, 300
+  xy: 716, 260
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Jungle
   rotate: false
-  xy: 716, 300
+  xy: 716, 260
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/JungleG
   rotate: false
-  xy: 716, 300
+  xy: 716, 260
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/ForestG
   rotate: false
-  xy: 716, 260
+  xy: 756, 268
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/ForestGH
   rotate: false
-  xy: 716, 260
+  xy: 756, 268
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1259,21 +1280,21 @@ TileSets/HexaRealm/Tiles/ForestGHUp
   index: -1
 TileSets/HexaRealm/Tiles/Fort+Stone
   rotate: false
-  xy: 756, 268
+  xy: 1280, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Holy site+Stone
   rotate: false
-  xy: 756, 268
+  xy: 1280, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Landmark+Cattle
   rotate: false
-  xy: 756, 268
+  xy: 1280, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1343,7 +1364,7 @@ TileSets/HexaRealm/Tiles/Hill
   index: -1
 TileSets/HexaRealm/Tiles/Hill+Mine
   rotate: false
-  xy: 1280, 332
+  xy: 716, 220
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1420,28 +1441,28 @@ TileSets/HexaRealm/Tiles/Ivory
   index: -1
 TileSets/HexaRealm/Tiles/Jungle2
   rotate: false
-  xy: 716, 220
+  xy: 756, 228
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Jungle3
   rotate: false
-  xy: 716, 220
+  xy: 756, 228
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/JungleG2
   rotate: false
-  xy: 716, 220
+  xy: 756, 228
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/JungleG3
   rotate: false
-  xy: 716, 220
+  xy: 756, 228
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1469,7 +1490,7 @@ TileSets/HexaRealm/Tiles/Lakes
   index: -1
 TileSets/HexaRealm/Tiles/Landmark+Stone
   rotate: false
-  xy: 756, 228
+  xy: 1320, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1497,7 +1518,7 @@ TileSets/HexaRealm/Tiles/Manufactory-Industrial era
   index: -1
 TileSets/HexaRealm/Tiles/Manufactory+Horses
   rotate: false
-  xy: 1320, 332
+  xy: 1360, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1567,7 +1588,7 @@ TileSets/HexaRealm/Tiles/Mountain2
   index: -1
 TileSets/HexaRealm/Tiles/Oasis
   rotate: false
-  xy: 1360, 332
+  xy: 1400, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1595,14 +1616,14 @@ TileSets/HexaRealm/Tiles/OilS
   index: -1
 TileSets/HexaRealm/Tiles/Oil well
   rotate: false
-  xy: 1400, 332
+  xy: 1440, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Oil+Oil well
   rotate: false
-  xy: 1400, 332
+  xy: 1440, 332
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1637,14 +1658,14 @@ TileSets/HexaRealm/Tiles/Plains3
   index: -1
 TileSets/HexaRealm/Tiles/PlantationB
   rotate: false
-  xy: 652, 444
+  xy: 76, 84
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/QuarryH
   rotate: false
-  xy: 444, 364
+  xy: 652, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
