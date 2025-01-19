@@ -84,6 +84,11 @@
 	"Grassland+Iron+Landmark": ["Grassland","Manufactory+Horses"],	// Hut cluster - North Brittany
 	"Grassland+Wine+Trading post": ["Grassland","Manufactory+Horses"],	// Hut cluster - East Brittany
 
+//	"Grassland+Deer+Camp": ["Grassland","Deer","Camp"],
+	"Grassland+Forest+Deer+Camp": ["Grassland","ForestG","Deer","Camp"],
+//	"Grassland+Jungle+Deer+Camp": ["Grassland","JungleG","Deer","Camp"],
+//	"Grassland+Forest+Jungle+Deer+Camp": ["Grassland","JungleG","Deer","Camp","Forest"],
+
 	// "Grassland+Plantation+Cotton": ["Grassland","Cotton+Plantation","Cotton","PlantationB"],
 
 	// Huts (main difference in huts etc is underlying bonuses)
