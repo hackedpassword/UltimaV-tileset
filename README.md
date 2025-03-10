@@ -1,3 +1,6 @@
+UPDATE: Tileset will be splitting off the unitset as it's own mod, and splitting off any other gameplay update as a base gameplay mod. Repo's are built ready for this, just have to get to the splitting. 
+
+
 # UltimaV-tileset
 Tileset graphics mod for Ultima V map [Britannia](https://github.com/hackedpassword/Nextgen-Maps#britannia-overworld), and a component of the (wip) U5 mod.
 
