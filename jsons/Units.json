@@ -1,0 +1,35 @@
+[
+		{
+		"name": "Mobile SAM",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 2,
+		"strength": 65,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"uniques": [
+			// The attempt here is to prune an overwhelming amount of units
+			"[This Unit] is destroyed <for [AI player]> <if it hasn't used other actions yet> <upon turn end>",
+			"[100]% chance to intercept air attacks", 
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", 
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile"
+	},
+  
+{
+		"name": "Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": [
+      "[This Unit] is destroyed <for [AI player]> <if it hasn't used other actions yet> <upon turn end>",
+      "Never appears as a Barbarian unit"
+    ],
+		"attackSound": "tankshot"
+	},
+
+] 
