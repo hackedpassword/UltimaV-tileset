@@ -13,40 +13,40 @@ TileSets/FantasyHex/Units/Anti-Tank Gun
   index: -1
 TileSets/FantasyHex/Units/Battleship
   rotate: false
-  xy: 4, 4
+  xy: 620, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Battleship2
   rotate: false
-  xy: 540, 4
+  xy: 660, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Destroyer
   rotate: false
-  xy: 620, 4
+  xy: 4, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Destroyer2
   rotate: false
-  xy: 660, 4
+  xy: 540, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Destroyer3
+TileSets/FantasyHex/Units/Battleship3
   rotate: false
   xy: 676, 260
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Destroyer4
+TileSets/FantasyHex/Units/Battleship4
   rotate: false
   xy: 716, 268
   size: 32, 32
