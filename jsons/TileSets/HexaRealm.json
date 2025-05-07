@@ -30,7 +30,10 @@
 	"Plains+Hill+Mine": ["Plains","Hill","Hill+Mine"],
 	"Desert+Hill+Mine": ["Desert","Hill","Hill+Mine"],
 
-	// resources are hiding behind forest not awkwardly in front
+	"Grassland+Hill+Fallout": ["Grassland","Hill","Fallout"],
+	"Grassland+Hill+Mine+Fallout": ["Grassland","Hill","Mine","Fallout"],
+
+	// resources hide behind forest not awkwardly in front
 
 	"Grassland+Forest+Deer": ["Grassland","Deer","ForestG"],
 	"Grassland+Forest+Jungle+Deer": ["Grassland","JungleG","Deer","ForestG"],
@@ -44,7 +47,7 @@
 	"Grassland+Marsh+Uranium": ["Grassland","Marsh","Uranium"],
 	"Grassland+Marsh+Forest+Uranium": ["Grassland","Marsh","Uranium","ForestG"],
 
-	"Grassland+Hill+Stone+Mine": ["Grassland","Hill","Stone","Hill+Mine"],
+	"Grassland+Hill+Stone+Mine": ["Grassland","Hill","Stone","Mine"],
 	"Grassland+Hill+Silver+Mine": ["Grassland","Hill","Hill+Mine","Silver"],
 	"Grassland+Hill+Gold Ore+Mine": ["Grassland","Hill","Hill+Mine","Gold Ore"],
 	"Grassland+Hill+Iron+Mine": ["Grassland","Hill","Hill+Mine","Iron"],
