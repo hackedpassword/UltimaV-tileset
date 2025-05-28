@@ -10,6 +10,10 @@ You see the new edge tiles improve square tile immersion. This needs more work b
 
 ![](u5_next_phase2.png)
 
+Rivers true to their graphical Ultima roots flow across the land.
+
+![](https://github.com/hackedpassword/Unciv-Assets/blob/main/Images/Ultima%20V/new_rivers.png)
+
 For a comparison, here's the original graphics:
 ![](original_map-at-cove.png)
 I love this map! Credit to the author @drrak. The whole map is [here](https://drrak.github.io/ultima5/).
