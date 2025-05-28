@@ -172,7 +172,7 @@
 	"Desert+Flood plains+Wheat": ["Desert","Flood plains+Wheat"],  // Vertical bridge, this is how we fudge bridge rotation
 	"Desert+Flood plains+Wheat+Plantation": ["Desert","Flood plains+Wheat","Plantation"],
 
-	"Snow+Hill+Uranium+Mine": ["Snow+Hill","Snow+Hill+Mine"],	// glass sword
+	"Snow+Hill+Uranium+Mine": ["Grassland+Hill","Snow+Hill+Mine"],	// glass sword
 
 
 
