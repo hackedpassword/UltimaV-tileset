@@ -14,6 +14,10 @@ Rivers true to their graphical Ultima roots flow across the land.
 
 ![](https://github.com/hackedpassword/Unciv-Assets/blob/main/Images/Ultima%20V/new_rivers.png)
 
+Scenes like this deserve an award.
+
+![](https://raw.githubusercontent.com/hackedpassword/Unciv-Assets/refs/heads/main/Images/Ultima%20V/Award%20winning%20screenshot.png)
+
 For a comparison, here's the original graphics:
 ![](https://github.com/hackedpassword/Unciv-Assets/blob/main/Images/Ultima%20V/original_map-at-cove.png)
 I love this map! Credit to the author @drrak. The whole map is [here](https://drrak.github.io/ultima5/).
