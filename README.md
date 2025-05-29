@@ -3,7 +3,41 @@
 True Ultima V rivers and edges have been created. Very hacky/tricky under Unciv limitations, but overall accomplished! This completes the purge of all hex-based graphics. Demo images to come of the new edges.
 
 # UltimaV-tileset
-Tileset graphics mod for Ultima V map [Britannia](https://github.com/hackedpassword/Nextgen-Maps#britannia-overworld), and a component of the (wip) U5 mod.
+Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/hackedpassword/Nextgen-Maps#britannia-overworld), and a component of the (wip) U5 mod.
+
+## Features
+
+- All square tile graphics, concealing the underlying hex grid
+- Original tiles and sprites
+- 1:4 scale Britannia map (128^2) is huge
+- Treasures hidden throughout the world
+- Exploration "feel" closely retained
+- Re-themed improvements and resources
+- A few *necessary* gameplay-based alterations of mountains but unobtrusive (map locations with one entry only)
+- Towns, shrines, abbeys, etc, all present - even moongates
+- Road improvement pre-placed on paths
+- Carefully hand-placed resources across the land ensuring an amazingly balanced game as civs scale, from start to end
+- Meaningful economics and trading - a common luxury item to you may be highly sought by a distant civ, while a rare item could draw unwanted attention
+- Sprites are layered specifically to partially conceal items that are best discovered by explorers, look closely you probably missed some (which is satisfyingly rewarding when found)
+- Great people, civilians, and all major endgame units re-themed
+- Intense attention to crafting the map as accurately as possible factoring technical design challenges
+
+## Not present, yet
+- Lots of other re-themed units (however the total Ultima V creature/human count is pretty low so this will require special attention)
+- Re-themed nations to become pre-placed towns (say like Paws or Moonglow, etc)
+- Translation names of game assets from Unciv base to Ultima names, see [Ultima V base](https://github.com/hackedpassword/UltimaV-base/blob/main/jsons/translations/English.properties)
+- Other things that bring that authentic Avatar feel home and onto the battleground
+
+## How do I get this because it sounds awesome!
+1. Download Unciv
+2. Within Unciv, in the Mods menu download `Ultima tileset` mod, and [Nextgen Maps](https://github.com/hackedpassword/Nextgen-Maps) mod
+3. In the New Game screen choose "Custom map", look for Britannia, select
+4. Make sure `Ultima tileset` is a selected mod
+5. Add some civs and nations, I think 12 civs and 20 nations should provide plenty of unrushed exploration and foundation
+
+## What does it look like?
+
+With the new rivers and edges, these images need to be updated, but you get the idea at a glance.
 
 ![](https://github.com/hackedpassword/Unciv-Assets/blob/main/Images/Ultima%20V/u5_next_phase.png)
 
@@ -25,6 +59,6 @@ I love this map! Credit to the author @drrak. The whole map is [here](https://dr
 
 What should stand out the most is that you don't see hex tiles, only "square" tiles. This is an intended and tricky effect to mimic the original looks of the 1988 game.
 
-There's a slight intermix of sprite tilesets, mostly PC version. I wanted to use the Apple ][e version but those sprites are far too low quality, maybe in another tileset.
+There's a slight intermix of sprite tilesets, mostly PC version. I wanted to use the Apple ][e version but those sprites are far too low quality so I believe the PC version is my goto.
 
-It's only the beginning. Give this mod a star :star: if you like the retro concept!
+This mod could use a star :star: to show support of the unique retro concept!
