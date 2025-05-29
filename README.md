@@ -13,7 +13,7 @@ Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/h
 - Treasures hidden throughout the world
 - Exploration "feel" closely retained
 - Re-themed improvements and resources
-- A few *necessary* gameplay-based alterations of mountains but unobtrusive (map locations with one entry only)
+- Custom Shadowlord realm themed borders look like wild energy barriers
 - Towns, shrines, abbeys, etc, all present - even moongates
 - Road improvement pre-placed on paths
 - Carefully hand-placed resources across the land ensuring an amazingly balanced game as civs scale, from start to end
@@ -30,9 +30,9 @@ Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/h
 
 ## How do I get this because it sounds awesome!
 1. Download Unciv
-2. Within Unciv, in the Mods menu download `Ultima tileset` mod, and [Nextgen Maps](https://github.com/hackedpassword/Nextgen-Maps) mod
+2. Within Unciv, in the Mods menu download `Ultima tileset` mod, `Ethereal borders` mod, and [Nextgen Maps](https://github.com/hackedpassword/Nextgen-Maps) mod
 3. In the New Game screen choose "Custom map", look for Britannia, select
-4. Make sure `Ultima tileset` is a selected mod
+4. Make sure `Ultima tileset` and `Ethereal borders` are selected mods
 5. Add some civs and nations, I think 12 civs and 20 nations should provide plenty of unrushed exploration and foundation
 
 ## What does it look like?
