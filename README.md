@@ -36,6 +36,7 @@ Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/h
 - Other things that bring that authentic Avatar feel home and onto the battleground
 - Granting promotions that act like items, example: climbing gear promotion for impassable terrain (mod Z2/Zelda 2 makes extensive use of this mechanic)
 - Better use of wonders to reflect location attributes
+- Conversion into a true tileset vs modding over HexaRealm
 
 ## How do I get this because it sounds awesome!
 1. Download Unciv
@@ -58,7 +59,7 @@ Rivers true to their graphical Ultima roots flow across the land.
 
 ![](https://github.com/hackedpassword/Unciv-Assets/blob/main/Images/Ultima%20V/new_rivers.png)
 
-Scenes like this deserve an award.
+Scenes like this deserve an award. 🏆
 
 ![](https://raw.githubusercontent.com/hackedpassword/Unciv-Assets/refs/heads/main/Images/Ultima%20V/Award%20winning%20screenshot.png)
 
