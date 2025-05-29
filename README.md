@@ -1,5 +1,6 @@
-UPDATE: Tileset will be splitting off the unitset as it's own mod, and splitting off any other gameplay update as a base gameplay mod. Repo's are built ready for this, just have to get to the splitting. 
+## Updates
 
+True Ultima V rivers and edges have been created. Very hacky/tricky under Unciv limitations, but overall accomplished! This completes the purge of all hex-based graphics. Demo images to come of the new edges.
 
 # UltimaV-tileset
 Tileset graphics mod for Ultima V map [Britannia](https://github.com/hackedpassword/Nextgen-Maps#britannia-overworld), and a component of the (wip) U5 mod.
