@@ -1,6 +1,6 @@
 ## Updates
 
-True Ultima V rivers and edges have been created. Very hacky/tricky under Unciv limitations, but overall accomplished! This completes the purge of all hex-based graphics. Demo images to come of the new edges.
+True Ultima V rivers and edges have been created. Very hacky/tricky under Unciv limitations, but overall accomplished! This completes the purge of all hex-based graphics. Demo images to come of the new edges. Minor precision tweaks to follow.
 
 # UltimaV-tileset
 Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/hackedpassword/Nextgen-Maps#britannia-overworld), and a component of the (wip) U5 mod.
@@ -8,17 +8,22 @@ Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/h
 ## Features
 
 - All square tile graphics, concealing the underlying hex grid
-- Original tiles and sprites
+- Movement and reachabilites remain hex which actually feels like an improvement on original gameplay - hex underpinnings are mandatory being built on top of Unciv
+- Original tiles and sprites ripped from sprite sheets, thank you sprite rippers!
+- None or minimal sprite alterations sans effects like submerged units or moongate glows, 
 - 1:4 scale Britannia map (128^2) is huge
-- Treasures hidden throughout the world
-- Exploration "feel" closely retained
+- Terrain sprites use a 2-pixel alpha edge trim for blending since the hex grid is notoriously imprecise for hard clean tiling - you get more lush environment as a result
+- Terrain feature sprites leverage the alpha channel to layer the graphics into the expected appearance while retaining gameplay behavior, like cutting down forest or jungle (dense forest)
+- Treasures hidden throughout the world, inclusive of reagents
+- Exploration "feel" *closely* retained - line of sight mechanics duplicate the wonder of adventure
+- Water terrain given special attention for representative accuracy since naval travel was a core mechanic
 - Re-themed improvements and resources
-- Custom [Shadowlord realm themed borders](https://github.com/hackedpassword/Ethereal-borders) look like wild energy barriers
-- Towns, shrines, abbeys, etc, all present - even moongates
+- Custom [Shadowlord realm themed borders](https://github.com/hackedpassword/Ethereal-borders) look like wild energy barriers (probably the coolest Unciv edge mod to date!
+- Towns, shrines, abbeys, etc, all present - even Moongates, will eventually migrate to becoming named Wonders and City-State Nations
 - Road improvement pre-placed on paths
 - Carefully hand-placed resources across the land ensuring an amazingly balanced game as civs scale, from start to end
 - Meaningful economics and trading - a common luxury item to you may be highly sought by a distant civ, while a rare item could draw unwanted attention
-- Sprites are layered specifically to partially conceal items that are best discovered by explorers, look closely you probably missed some (which is satisfyingly rewarding when found)
+- Sprites are layered specifically to partially conceal items that are best discovered by explorers, or for logical layeribg appeal (Forest overlays Fort for example) - look closely you probably missed a hidden item! (which is satisfyingly rewarding when found)
 - Great people, civilians, and all major endgame units re-themed
 - Intense attention to crafting the map as accurately as possible factoring technical design challenges
 
@@ -26,7 +31,10 @@ Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/h
 - Lots of other re-themed units (however the total Ultima V creature/human count is pretty low so this will require special attention)
 - Re-themed nations to become pre-placed towns (say like Paws or Moonglow, etc)
 - Translation names of game assets from Unciv base to Ultima names, see [Ultima V base](https://github.com/hackedpassword/UltimaV-base/blob/main/jsons/translations/English.properties)
+- Re-themed icons
 - Other things that bring that authentic Avatar feel home and onto the battleground
+- Granting promotions that act like items, example: climbing gear promotion for impassable terrain (mod Z2/Zelda 2 makes extensive use of this mechanic)
+- Better use of wonders to reflect location attributes
 
 ## How do I get this because it sounds awesome!
 1. Download Unciv
