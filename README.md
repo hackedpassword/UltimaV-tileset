@@ -11,14 +11,14 @@ Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/h
 - Movement and reachabilites remain hex which actually feels like an improvement on original gameplay - hex underpinnings are mandatory being built on top of Unciv
 - Original tiles and sprites ripped from sprite sheets, thank you sprite rippers!
 - None or minimal sprite alterations sans effects like submerged units or moongate glows, 
-- 1:4 scale Britannia map (128^2) is huge
+- 1:4 scale Britannia map (128^2) is vast and expansive despite one-quarter scale pushing Unciv to the razor-edge of memory limitations
 - Terrain sprites use a 2-pixel alpha edge trim for blending since the hex grid is notoriously imprecise for hard clean tiling - you get more lush environment as a result
 - Terrain feature sprites leverage the alpha channel to layer the graphics into the expected appearance while retaining gameplay behavior, like cutting down forest or jungle (dense forest)
 - Treasures hidden throughout the world, inclusive of reagents
 - Exploration "feel" *closely* retained - line of sight mechanics duplicate the wonder of adventure
 - Water terrain given special attention for representative accuracy since naval travel was a core mechanic
 - Re-themed improvements and resources
-- Custom [Shadowlord realm themed borders](https://github.com/hackedpassword/Ethereal-borders) look like wild energy barriers (probably the coolest Unciv edge mod to date!
+- Custom [Shadowlord realm themed borders](https://github.com/hackedpassword/Ethereal-borders) look like wild energy barriers (probably the coolest Unciv edge mod to date!)
 - Towns, shrines, abbeys, etc, all present - even Moongates, will eventually migrate to becoming named Wonders and City-State Nations
 - Road improvement pre-placed on paths
 - Carefully hand-placed resources across the land ensuring an amazingly balanced game as civs scale, from start to end
