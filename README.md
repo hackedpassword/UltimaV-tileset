@@ -13,7 +13,8 @@ Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/h
 - None or minimal sprite alterations sans effects like submerged units or moongate glows, 
 - 1:4 scale Britannia map (128^2) is vast and expansive despite one-quarter scale pushing Unciv to the razor-edge of memory limitations
 - Terrain sprites use a 2-pixel alpha edge trim for blending since the hex grid is notoriously imprecise for hard clean tiling - you get more lush environment as a result
-- Terrain feature sprites leverage the alpha channel to layer the graphics into the expected appearance while retaining gameplay behavior, like cutting down forest or jungle (dense forest)
+- Terrain Feature sprites leverage the alpha channel to layer the graphics into the expected appearance while retaining gameplay behavior, like cutting down forest or jungle (dense forest)
+- Fallout is lava which looks incredible amidst war
 - Treasures hidden throughout the world, inclusive of reagents
 - Exploration "feel" *closely* retained - line of sight mechanics duplicate the wonder of adventure
 - Water terrain given special attention for representative accuracy since naval travel was a core mechanic
