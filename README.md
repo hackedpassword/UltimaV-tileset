@@ -13,7 +13,7 @@ Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/h
 - Treasures hidden throughout the world
 - Exploration "feel" closely retained
 - Re-themed improvements and resources
-- Custom Shadowlord realm themed borders look like wild energy barriers
+- Custom [Shadowlord realm themed borders](https://github.com/hackedpassword/Ethereal-borders) look like wild energy barriers
 - Towns, shrines, abbeys, etc, all present - even moongates
 - Road improvement pre-placed on paths
 - Carefully hand-placed resources across the land ensuring an amazingly balanced game as civs scale, from start to end
