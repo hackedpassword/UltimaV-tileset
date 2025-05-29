@@ -23,8 +23,8 @@ Retro tileset graphics mod for the Ultima V map [Britannia](https://github.com/h
 - Towns, shrines, abbeys, etc, all present - even Moongates, will eventually migrate to becoming named Wonders and City-State Nations
 - Road improvement pre-placed on paths
 - Carefully hand-placed resources across the land ensuring an amazingly balanced game as civs scale, from start to end
-- Meaningful economics and trading - a common luxury item to you may be highly sought by a distant civ, while a rare item could draw unwanted attention
-- Sprites are layered specifically to partially conceal items that are best discovered by explorers, or for logical layeribg appeal (Forest overlays Fort for example) - look closely you probably missed a hidden item! (which is satisfyingly rewarding when found)
+- Meaningful economics and trading - a common luxury item to you may be highly sought by a distant civ, while a rare item could draw unwanted attention (there's only one Mandrake and one Nightshade for example)
+- Sprites are layered specifically to partially conceal items that are best discovered by explorers, or for logical layering appeal (Forest overlays Fort for example) - look closely you probably missed a hidden item! (which is satisfyingly rewarding when found)
 - Great people, civilians, and all major endgame units re-themed
 - Intense attention to crafting the map as accurately as possible factoring technical design challenges
 
