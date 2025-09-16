@@ -54,6 +54,9 @@
 	"Grassland+Hill+Coal+Mine": ["Grassland","Hill","Hill+Mine","Coal"],
 	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Aluminum","Armory"],
 
+	"Grassland+Iron+Mine": ["Grassland","Iron","Armory"],
+	"Grassland+Aluminum+Mine": ["Grassland","Aluminum","Armory"],
+
 	"Grassland+Hill+Stone+Quarry": ["Grassland","Hill","QuarryH"],
 
 	"Grassland+Hill+Forest+Coal": ["Grassland","Hill","Coal","ForestG"],
