@@ -50,9 +50,9 @@
 	"Grassland+Hill+Stone+Mine": ["Grassland","Hill","Stone","Mine"],
 	"Grassland+Hill+Silver+Mine": ["Grassland","Hill","Hill+Mine","Silver"],
 	"Grassland+Hill+Gold Ore+Mine": ["Grassland","Hill","Hill+Mine","Gold Ore"],
-	"Grassland+Hill+Iron+Mine": ["Grassland","Hill","Hill+Mine","Iron"],
+	"Grassland+Hill+Iron+Mine": ["Grassland","Hill","Armory","Iron"],
 	"Grassland+Hill+Coal+Mine": ["Grassland","Hill","Hill+Mine","Coal"],
-	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Hill+Mine","Aluminum"],
+	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Armory","Aluminum"],
 
 	"Grassland+Hill+Stone+Quarry": ["Grassland","Hill","QuarryH"],
 
