@@ -50,9 +50,9 @@
 	"Grassland+Hill+Stone+Mine": ["Grassland","Hill","Stone","Mine"],
 	"Grassland+Hill+Silver+Mine": ["Grassland","Hill","Hill+Mine","Silver"],
 	"Grassland+Hill+Gold Ore+Mine": ["Grassland","Hill","Hill+Mine","Gold Ore"],
-	"Grassland+Hill+Iron+Mine": ["Grassland","Hill","Armory","Iron"],
+	"Grassland+Hill+Iron+Mine": ["Grassland","Hill","Iron","Armory"],
 	"Grassland+Hill+Coal+Mine": ["Grassland","Hill","Hill+Mine","Coal"],
-	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Armory","Aluminum"],
+	"Grassland+Hill+Aluminum+Mine": ["Grassland","Hill","Aluminum","Armory"],
 
 	"Grassland+Hill+Stone+Quarry": ["Grassland","Hill","QuarryH"],
 
@@ -204,8 +204,9 @@
 	"Desert+Flood plains+Manufactory": ["Desert+Flood plains","Flood plains","Manufactory"],
 	"Desert+Flood plains+Trading post": ["Desert+Flood plains","Flood plains","Trading post"],
 
-	"Desert+Flood plains+Wheat": ["Desert","Flood plains+Wheat"],  // Vertical bridge, this is how we fudge bridge rotation
-	"Desert+Flood plains+Wheat+Plantation": ["Desert","Flood plains+Wheat","Plantation"],
+	"Desert+Flood plains+Wheat": ["Desert+Flood plains","Flood plains+Wheat"],  // Vertical bridge, this is how we fudge bridge rotation
+	"Desert+Flood plains+Wheat+Plantation": ["Desert+Flood plains","Flood plains+Wheat","Plantation"],
+	"Desert+Flood plains+Wheat+Farm": ["Desert+Flood plains","Flood plains+Wheat","Farm"],
 
 	"Snow+Hill+Uranium+Mine": ["Grassland+Hill","Snow+Hill+Mine"],	// glass sword
 
