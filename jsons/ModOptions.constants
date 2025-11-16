@@ -1,5 +1,7 @@
 [
 	{
-		"maxXPfromBarbarians": 10000,
+		"maxXPfromBarbarians": 99999,
+		"maxGoldTradeOffer": 99999999,  # https://github.com/yairm210/Unciv/pull/14147
 	}
+
 ]
