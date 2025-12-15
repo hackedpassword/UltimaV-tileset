@@ -1,27 +1,93 @@
 [
+
+	/* In making this tileset, the goal had been absolute adherence to G&K entities w/o introducing new ones. The goal bent entities
+	    a bit with new combo entities like Desert+Flood plains.png to patch in sprites with correct representation in U5 but yet
+	    retaining the very same G&K behaviors. I'm doing a new quality pass updating bridges and find the dynamics of river limitations,
+	    river/static-shaded coloring, proximity to land or water, it's time to do something that G&K should have done long ago: "Plains"
+	    are now a legit occurence for Flood plains, vs only Desert. By doing this, I can negate tile edging at coasts which otherwise
+	    adds undesired edge gfx where a river should visibly flow through, since Plains are only used for path terrainfeature tiles.
+	    Options are very limited - making a bridge into a special wonder dual land/water tile is an option, including setting by use
+	    of canal improvement'ing. Not being concerned about random placement is a huge advantage. The block below is duped from G&K w/
+	    the single addition of Plains. */
+	{
+		"name": "Flood plains",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"occursOn": ["Desert","Plains"],
+		"uniques": ["Always Fertility [5] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"]
+	},
+	{  // Needed to dupe Coast to jigger a non-edge version, due to Grassland NE and NW decors being unable to draw over edges.
+		"name": "Coast edgeless",
+		"type": "Water",
+		"food": 1,
+        	"gold": 1,
+		"movementCost": 1,
+		"RGB": [70, 138, 216],
+		"uniques": ["Coast","[+2] to Fertility for Map Generation",
+        	    	"Considered [Desirable] when determining start locations <on water maps>",
+			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+// Terrainfeature manual tile edging hacks to add natural cornering edging as seen in original Ultima V. imo the attention to land detail
+// seen within Ultima V is one of the massive visual features setting the game light years ahead of everyone else.
+// There's a bunch of these within the sprite set that need importing, and manual conversion square->hex/square attention.
+
+	{
+		"name": "WaterSW",
+		"type": "TerrainFeature",
+		"unbuildable": true,
+		"occursOn": ["Lakes"],
+		"uniques": ["TerrainDecor","Lakes", 
+		],
+	},
+	{
+		// devnotes: Applying over a Forest would blank the forest .. any other TF would work. Had to copy ForestG.png to Forest.png
+		"name": "GrasslandSW",
+		"type": "TerrainFeature",
+		"unbuildable": true,
+		"occursOn": ["Grassland","Plains"],  // Can apply to Plains for Path tiles
+		"uniques": ["TerrainDecor","Grassland","Land",
+		],
+	},
+	{
+		"name": "GrasslandSE",
+		"type": "TerrainFeature",
+		"unbuildable": true,
+		"occursOn": ["Grassland","Plains"],
+		"uniques": ["TerrainDecor","Grassland","Land",
+		],
+	},
 	{
 		"name": "GrasslandNE",
 		"type": "TerrainFeature",
 		"unbuildable": true,
-		"occursOn": ["Lakes"],
-		"uniques": [
+		"occursOn": ["Grassland","Plains"],
+		"uniques": ["TerrainDecor","Grassland","Land",
 		],
 	},
 	{
-		"name": "GrasslandSW",
+		"name": "GrasslandNW",
 		"type": "TerrainFeature",
 		"unbuildable": true,
-		"occursOn": ["Grassland"],
-		"uniques": [
+		"occursOn": ["Grassland","Plains"],
+		"uniques": ["TerrainDecor","Grassland","Land",
 		],
 	},
+
+// Path terrainfeature overlays. Cool find: laying down the TF's blocked improvement builds, not being a listed TF per improvement. Figured
+// if I slapped a label in the uniques matching Plains, it'd do the thing ... and tada! N1 devs! All Path TF's now behave like Plains.
+// Also, Path is a master TF for all Path's. This will matter later when needing specific uniques for any path.
+// Finally, paths are being renamed as part of symbolic abbreviation'ing. Haven't released my unicode symbol mod yet, tba!
+
 	{
 		"name": "Path",
 		"type": "TerrainFeature",
-//		"movementCost": 3,
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -29,7 +95,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -37,7 +103,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -45,7 +111,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -53,7 +119,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -61,7 +127,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -69,7 +135,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -77,7 +143,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -85,7 +151,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -93,7 +159,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -101,7 +167,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -109,7 +175,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -117,7 +183,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -125,7 +191,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 	{
@@ -133,7 +199,7 @@
 		"type": "TerrainFeature",
 		"unbuildable": true,
 		"occursOn": ["Plains"],
-		"uniques": [
+		"uniques": [ "Plains", "Path",
 		],
 	},
 
