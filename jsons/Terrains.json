@@ -7,16 +7,6 @@
 	// Land terrain additions - terrain adaptations for decor. Edges misbehave with decor overlays, so we have to strip edging
 	// on any tile by subbing a same-tile, without `../Edges/` assets.
 	{
-		"name": "Coast edgeless",
-		"type": "Water",
-		"food": 1,
-        	"gold": 1,
-		"movementCost": 1,
-		"RGB": [70, 138, 216],
-		"uniques": ["Coast","[+2] to Fertility for Map Generation",
-        	    	"Considered [Desirable] when determining start locations <on water maps>"]
-	},
-	{
 		"name": "Coast shore",
 		"type": "Water",
 		"food": 1,
@@ -654,6 +644,7 @@
 		"occursOn": ["Coast","Lakes","Ocean","Coast edgeless"],
 		"uniques": [ "TerrainDecor","Unit"],
 	},
+
 
 
 
